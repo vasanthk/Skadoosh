@@ -10,5 +10,6 @@ app.get('/', function (req, res) {
 app.use('/js', express.static(path.join(__dirname, '/js')));
 app.use('/css', express.static(path.join(__dirname, '/css')));
 app.use('/fonts', express.static(path.join(__dirname, '/fonts')));
+app.use('/video', express.static(path.join(__dirname, '/video')));
 
 app.listen(4000);

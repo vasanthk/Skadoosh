@@ -4,6 +4,8 @@
    Author's custom styles
    ========================================================================== */
 
+/* FireChat */
+
 #firechat {
    width: 20%;
    float: right;
@@ -45,7 +47,24 @@
    text-decoration: underline;
 }
 
+/* Video JS */
+#video-stream {
+   width: 800px;
+   height: 600px;
+   margin: 0px auto;
+}
 
+#video-stream div {
+   z-index: 1000;
+}
+
+/* Header */
+header {
+   padding-left: 25% !important;
+   padding-top: 50px !important;
+   padding-bottom: 50px !important;
+   background-color: transparent !important;
+}
 
 
 
