@@ -60,7 +60,7 @@
                 <h1>Paul Irish's webcast (JavaScript)</h1>
             </header>
             <div class="row">
-                <div id="video-stream" class="col-md-8">
+                <span id="video-stream" class="col-md-8">
                     <video id="really-cool-video" class="video-js vjs-default-skin" controls
                            preload="auto" width="800" height="600" data-setup='{}'>
                         <source src="video/LiveEdit.mp4" type='video/mp4'>
@@ -69,8 +69,29 @@
                             that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
                         </p>
                     </video>
-                </div>
-                <div id='firechat-wrapper' class="col-md-4"></div>
+                </span>
+                <span id='firechat-wrapper' class="col-md-4"></span>
+            </div>
+            <div class="row stream-info">
+                <span class="live-label col-md-1">
+                    <h3><span class="label label-default">Live</span></h3>
+                </span>
+                <span class="thumbs-up-down btn-group col-md-9">
+                    <button type="button" class="btn btn-default" aria-label="Thumbs Up">
+                        <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"> 13</span>
+                    </button>
+                    <button type="button" class="btn btn-default" aria-label="Thumbs down">
+                        <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"> 0</span>
+                    </button>ß
+                </span>
+                <span class="social-sharing col-md-2">
+                    <ul class="soc">
+                        <li><a class="soc-twitter" href="#"></a></li>
+                        <li><a class="soc-facebook" href="#"></a></li>
+                        <li><a class="soc-google" href="#"></a></li>
+                        <li><a class="soc-pinterest soc-icon-last" href="#"></a></li>
+                    </ul>
+                </span>
             </div>
         </div><!-- /container -->
         <script src="js/classie.js"></script>
