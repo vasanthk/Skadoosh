@@ -7,12 +7,8 @@
 /* FireChat */
 
 #firechat {
-   width: 20%;
-   float: right;
-   top: 61px;
-   position: absolute;
    right: 0;
-   height: 475px;
+   height: 600px;
    max-width: 325px;
    padding: 10px;
    border: 1px solid #CCC;
@@ -25,10 +21,6 @@
    -webkit-box-shadow: 0 5px 25px #666;
    -moz-box-shadow: 0 5px 25px #666;
    box-shadow: 0 5px 25px #666;
-}
-
-#firechat .prompt {
-   position: fixed; !important;
 }
 
 #auth-modal {
@@ -48,11 +40,6 @@
 }
 
 /* Video JS */
-#video-stream {
-   width: 800px;
-   height: 600px;
-   margin: 0px auto;
-}
 
 #video-stream div {
    z-index: 1000;

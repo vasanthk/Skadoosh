@@ -59,15 +59,18 @@
             <header>
                 <h1>Welcome to Paul Irish's stream</h1>
             </header>
-            <div id="video-stream">
-                <video id="really-cool-video" class="video-js vjs-default-skin" controls
-                       preload="auto" width="800" height="600" data-setup='{}'>
-                    <source src="video/LiveEdit.mp4" type='video/mp4'>
-                    <p class="vjs-no-js">
-                        To view this video please enable JavaScript, and consider upgrading to a web browser
-                        that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-                    </p>
-                </video>
+            <div class="row">
+                <div id="video-stream" class="col-md-8">
+                    <video id="really-cool-video" class="video-js vjs-default-skin" controls
+                           preload="auto" width="800" height="600" data-setup='{}'>
+                        <source src="video/LiveEdit.mp4" type='video/mp4'>
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a web browser
+                            that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
+                </div>
+                <div id='firechat-wrapper' class="col-md-4"></div>
             </div>
         </div><!-- /container -->
         <script src="js/classie.js"></script>
@@ -92,8 +95,6 @@
         <script src='https://cdn.firebase.com/libs/firechat/2.0.1/firechat.min.js'></script>
 
         <script src="http://vjs.zencdn.net/4.11/video.js"></script>
-
-        <div id='firechat-wrapper'></div>
 
         <script>
             // Create a new Firebase reference, and a new instance of the Login client
