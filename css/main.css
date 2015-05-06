@@ -174,7 +174,46 @@ header {
    padding-left: 0;
 }
 
+/** Carousel */
 
+.video-carousel {
+   margin-top: 30px;
+}
+
+.video-carousel h3 {
+   background: #FFF;
+   color: #3498DB;
+   font-size: 36px;
+   line-height: 100px;
+   margin: 10px;
+   padding: 2%;
+   position: relative;
+   text-align: center;
+}
+
+.video-carousel img {
+   cursor: pointer;
+   margin: 10px;
+   padding: 2%;
+   max-width: 250px;
+   height: auto;
+}
+
+.video-thumbnail {
+   position: relative;
+}
+
+.video-thumbnail .play-icon{
+   cursor: pointer;
+   position: absolute;
+   top : 50%;
+   left : 50%;
+   transform: translate(-50%, -50%);
+}
+
+svg:hover #play-svg{
+   fill: #CC181E;
+}
 
 
 
