@@ -80,16 +80,24 @@
         <link rel='stylesheet' href='https://cdn.firebase.com/libs/firechat/2.0.1/firechat.min.css'/>
         <script src='https://cdn.firebase.com/libs/firechat/2.0.1/firechat.min.js'></script>
 
+        <div id='firechat-wrapper'></div>
+
         <script>
             // Create a new Firebase reference, and a new instance of the Login client
             var chatRef = new Firebase('https://virtuoshow-chat-app.firebaseio.com');
 
             function login() {
-                chatRef.authWithOAuthPopup("twitter", function (error, authData) {
+                chatRef.authAnonymously(function(error, authData) {
                     if (error) {
-                        console.log(error);
+                        console.log("Login Failed!", error);
+                    } else {
+                        console.log("Authenticated successfully with payload:", authData);
                     }
                 });
+            }
+            function initChat(authData) {
+                var chat = new FirechatUI(chatRef, document.getElementById('firechat-wrapper'));
+                chat.setUser(authData.uid, authData[authData.provider].displayName);
             }
 
             chatRef.onAuth(function (authData) {
@@ -100,16 +108,7 @@
             });
         </script>
 
-        <a href='#' onclick='login();'>Login with Twitter</a>
-
-        <script>
-            function initChat(authData) {
-                var chat = new FirechatUI(chatRef, document.getElementById('firechat-wrapper'));
-                chat.setUser(authData.uid, authData[authData.provider].displayName);
-            }
-        </script>
-
-        <div id='firechat-wrapper'></div>
+        <a href='#' onclick='login();'>Login Anonymously</a>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

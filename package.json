@@ -1,0 +1,23 @@
+{
+  "name": "Virtuoshow",
+  "version": "1.0.0",
+  "description": "A mock site to host sessions virtually to share and learn skills with people across the globe.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vasanthk/Virtuoshow.git"
+  },
+  "author": "Vasa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasanthk/Virtuoshow/issues"
+  },
+  "homepage": "https://github.com/vasanthk/Virtuoshow",
+  "dependencies": {
+    "express": "^4.12.3",
+    "path": "^0.11.14"
+  }
+}
