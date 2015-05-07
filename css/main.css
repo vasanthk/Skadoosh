@@ -256,6 +256,12 @@ body {
    font-size: 1em;
 }
 
+.save-event {
+   position: relative;
+   top: 15px;
+   right: -50px;
+}
+
 ul.scale-up-hover-list {
    padding-left: .1em;
    width: 100%;
@@ -333,7 +339,7 @@ ul.scale-up-hover-list {
 
 .scale-up-hover-list li .item-info-container {
    float: left;
-   max-width: 82%
+   max-width: 78%
 }
 
 .scale-up-hover-list li .item-info-container h1 {
