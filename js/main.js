@@ -9,4 +9,9 @@
 
     $("a.youtube").YouTubePopup({autoplay: 1, draggable: true, hideTitleBar: true});
 
+    $('#datetimepicker12').datetimepicker({
+        inline: true,
+        sideBySide: true
+    });
+
 })(jQuery);

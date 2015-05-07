@@ -375,6 +375,20 @@ ul.scale-up-hover-list {
    padding-left: 2%;
 }
 
+/** Schedule One on Ones */
+
+.pick-slot {
+   margin-top: 50px;
+}
+
+.pick-slot button {
+   margin-top: 20%;
+}
+
+#datetimepicker12 {
+   background-color: #F0F0F0;
+}
+
 
 
 
