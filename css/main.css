@@ -362,6 +362,13 @@ ul.scale-up-hover-list {
    color: #858585;
 }
 
+/** Events Timeline */
+.events-timeline {
+   margin-top: 35px;
+   width: 100%;
+   padding-left: 2%;
+}
+
 
 
 
