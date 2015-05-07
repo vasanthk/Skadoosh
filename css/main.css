@@ -236,7 +236,7 @@ svg:hover #play-svg{
 
 /** Events List */
 
-.upcoming-webcasts, .one-on-ones {
+.upcoming-webcasts, .one-on-ones, .materials-section {
    text-align: left;
    font-size: 24px;
    font-weight: 100;
@@ -388,6 +388,13 @@ ul.scale-up-hover-list {
 #datetimepicker12 {
    background-color: #F0F0F0;
    padding: 20px;
+}
+
+/** Materials section */
+.materials-embed {
+   margin-top: 35px;
+   background-color: #F0F0F0;
+   padding-top: 10px;
 }
 
 
