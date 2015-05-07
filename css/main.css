@@ -381,7 +381,11 @@ ul.scale-up-hover-list {
 }
 
 .pick-slot button {
-   margin-top: 20%;
+   margin-bottom: 35px;
+}
+
+.schedule-button-set {
+   margin-top: 5%;
 }
 
 #datetimepicker12 {
