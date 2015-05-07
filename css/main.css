@@ -215,6 +215,13 @@ svg:hover #play-svg{
    fill: #CC181E;
 }
 
+/** Intro Section */
+.channel-intro {
+   text-align: center;
+   font-size: 24px;
+   font-weight: 100;
+   margin-bottom: 25px;
+}
 
 
 
