@@ -236,7 +236,7 @@ svg:hover #play-svg{
 
 /** Events List */
 
-.upcoming-webcasts, .one-on-ones, .materials-section {
+.upcoming-webcasts, .one-on-ones, .discussion-forum, .materials-section {
    text-align: left;
    font-size: 24px;
    font-weight: 100;
@@ -376,7 +376,6 @@ ul.scale-up-hover-list {
 }
 
 /** Schedule One on Ones */
-
 .pick-slot {
    margin-top: 50px;
 }
@@ -390,8 +389,18 @@ ul.scale-up-hover-list {
    padding: 20px;
 }
 
+/** Discussion Forum */
+.discussion-forum-embed {
+   margin-top: 30px;
+   background-color: #F0F0F0;
+   margin-left: 15px;
+}
+
+
+
 /** Materials section */
 .materials-embed {
+   margin-left: 15px;
    margin-top: 35px;
    background-color: #F0F0F0;
    padding-top: 10px;
