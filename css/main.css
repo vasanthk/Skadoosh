@@ -236,7 +236,7 @@ svg:hover #play-svg{
 
 /** Events List */
 
-.upcoming-webcasts {
+.upcoming-webcasts, .one-on-ones {
    text-align: left;
    font-size: 24px;
    font-weight: 100;
