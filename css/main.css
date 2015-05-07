@@ -183,7 +183,7 @@ header {
 .all-videos {
    text-align: left;
    font-size: 24px;
-   font-weight: 100;
+   font-weight: 400;
    margin-top: 75px;
 }
 
@@ -230,7 +230,7 @@ svg:hover #play-svg{
 .channel-intro {
    text-align: center;
    font-size: 24px;
-   font-weight: 100;
+   font-weight: 200;
    margin-bottom: 25px;
 }
 
@@ -239,7 +239,7 @@ svg:hover #play-svg{
 .upcoming-webcasts, .one-on-ones, .discussion-forum, .materials-section {
    text-align: left;
    font-size: 24px;
-   font-weight: 100;
+   font-weight: 400;
    margin-top: 50px;
 }
 
