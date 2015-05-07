@@ -393,14 +393,18 @@ ul.scale-up-hover-list {
    padding: 20px;
 }
 
+.donate-money input {
+   width: 150px !important;
+   height: 45px;
+   margin-right: 20px;
+}
+
 /** Discussion Forum */
 .discussion-forum-embed {
    margin-top: 30px;
    background-color: #F0F0F0;
    margin-left: 15px;
 }
-
-
 
 /** Materials section */
 .materials-embed {
