@@ -25,7 +25,7 @@
     });
 
     tour.addStep('Live Webcast', {
-        text: 'Live Stream! <br/><br/> <div style="color:yellow">Powered by GoToWebinar</div><br/><br/><br/><br/>',
+        text: 'Live Streaming... <br/><br/> <div style="color:yellow">Powered by GoToWebinar</div><br/><br/><br/><br/>',
         attachTo: '#video-stream left',
         buttons: [
             {
