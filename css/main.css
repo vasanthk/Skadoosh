@@ -302,6 +302,7 @@ ul.scale-up-hover-list {
    -o-transform: scale(1.025, 1.025);
    -ms-transform: scale(1.025, 1.025);
    transform: scale(1.025, 1.025);
+   background-color: white;
 }
 
 .scale-up-hover-list li .date {
