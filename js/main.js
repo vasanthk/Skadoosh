@@ -123,6 +123,9 @@
         ]
     });
 
-    tour.start();
+
+    $('.site-tour').on('click', function () {
+        tour.start();
+    });
 
 })(jQuery);

@@ -385,7 +385,7 @@ ul.scale-up-hover-list {
 }
 
 .schedule-button-set {
-   margin-top: 5%;
+   margin-top: 3%;
 }
 
 #datetimepicker12 {
@@ -415,6 +415,13 @@ ul.scale-up-hover-list {
    margin-bottom: 200px;
 }
 
+/** Site tour button */
+.site-tour {
+   float: right;
+   position: absolute;
+   top: 100px;
+   right: 35px;
+}
 
 
 
