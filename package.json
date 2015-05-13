@@ -1,5 +1,5 @@
 {
-  "name": "Virtuoshow",
+  "name": "Skadoosh",
   "version": "1.0.0",
   "description": "A mock site to host sessions virtually to share and learn skills with people across the globe.",
   "main": "server.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vasanthk/Virtuoshow.git"
+    "url": "https://github.com/vasanthk/Skadoosh.git"
   },
   "author": "Vasa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vasanthk/Virtuoshow/issues"
+    "url": "https://github.com/vasanthk/Skadoosh/issues"
   },
-  "homepage": "https://github.com/vasanthk/Virtuoshow",
+  "homepage": "https://github.com/vasanthk/Skadoosh",
   "dependencies": {
     "express": "^4.12.3",
     "path": "^0.11.14",
